@@ -1,0 +1,80 @@
+/* Pour les écrans moyens */
+@media screen and (min-width: 500px){
+    main {
+        display: flex;
+        padding: 3%;
+    }
+
+    form input[type="password"] {
+        width: 45%;
+        padding: 8px;
+        margin-bottom: 10px;
+    }
+
+    .login-container{
+        background-color: #ffffff;
+        padding-left: 1%;
+        padding-right: 1%;
+        padding-top: 1%;
+        padding-bottom: 3%;
+        border-radius: 30px;
+        margin-top: 1%;
+        width: 40%;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: small;
+    }
+
+    #captcha-text {
+        font-style: italic;
+        font-size: 12px;
+        color: #ffffff;
+        background-color: #444444;
+        padding: 3px;
+    }
+
+    .error-message {
+        color: red;
+    }
+}
+
+/* Pour les écrans petits */
+@media screen and (max-width: 500px){
+    main {
+        display: flex;
+        padding: 3%;
+    }
+
+    form input[type="password"] {
+        width: 70%;
+        padding: 8px;
+        margin-bottom: 10px;
+    }
+
+    .login-container{
+        background-color: #ffffff;
+        padding-left: 1%;
+        padding-right: 1%;
+        padding-top: 1%;
+        padding-bottom: 3%;
+        border-radius: 30px;
+        margin-top: 1%;
+        width: 40%;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: small;
+    }
+
+    #captcha-text {
+        font-style: italic;
+        font-size: 12px;
+        color: #ffffff;
+        background-color: #444444;
+        padding: 3px;
+    }
+
+    .error-message {
+        color: red;
+    }
+}
+

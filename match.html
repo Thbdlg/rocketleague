@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="./images/logorl.ico">
+        <title>Tournoi 1vs1 Rocket League</title>
+        <link rel="stylesheet" href="./css/styles.css">
+        <link rel="stylesheet" href="./css/match.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul id="titre">
+                    <li><img src="./images/logorl.png" alt="logo"
+                            style="width:10vh;width:10vh"></li>
+                    <li><p id="titre_menu">Tournoi 1vs1 ROCKET LEAGUE</p></li>
+                </ul>
+                <ul id="bouton">
+                    <li><a href="./home.html">Home</a></li>
+                    <li><a href="./travaux.html">About</a></li>
+                    <li><a href=".travaux.html">Contact</a></li>
+                    <li><a href=".logout.html">Déconnexion</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div>
+            <h1>Matchs</h1>
+            Entrez les informations nécessaires pour que l'enregistrement des
+            matchs fonctionne !
+        </div>
+        <main>
+            <section id="registration">
+                <h2>Planification</h2>
+                <form id="registration-form">
+                    <label for="type-match">Type de match :</label>
+                    <select id="type-match">
+                        <option value="homme">Match Homme</option>
+                        <option value="femme">Match Femme</option>
+                    </select>
+                    <br>
+                    <label for="joueur1">Joueur 1 :</label>
+                    <select id="joueur1">
+                    </select>
+                    <br>
+                    <label for="joueur2">Joueur 2 :</label>
+                    <select id="joueur2">
+                    </select>
+                    <br>
+                    <label for="commentateur">Commentateur :</label>
+                    <select id="commentateur">
+                    </select>
+                    <br><br>
+                    <label for="terrain">Terrain :</label>
+                    <select id="terrain">
+                    </select>
+                    <br><br>
+                    <label for="date">Date : </label>
+                    <input type="text" id="date" required>
+                    <br><br>
+                    <button type="submit">S'inscrire</button>
+                    <input type="reset" value="Réinitialiser" />
+                </form>
+            </section>
+            <section id="matchs">
+                <h2>Matchs</h2>
+                <ul id="matchs-list">
+                    <!-- Les matchs seront ajoutés ici -->
+                </ul>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 Tournoi Rocket League
+                <a href="https://validator.w3.org/">
+                    <img style="border:0;width:40px;height:13px"
+                        src="./images/W3Chtml.png"
+                        alt="HTML Valide !" />
+                </a>
+                <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                    <img style="border:0;width:40px;height:13px"
+                        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+                        alt="CSS Valide !" />
+                </a>
+                </p>
+        </footer>
+        <script src="./js/match.js"></script>
+    </body>
+</html>

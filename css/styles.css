@@ -1,0 +1,141 @@
+body {
+    background-image: url("../images/fond.jpg");
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #464646;
+    background-position: center;
+}
+
+footer{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size:xx-small;
+    padding: 0.1vh;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+form input[type="reset"]:hover {
+    background-color: #555;
+}
+
+nav ul {
+    background-color: white;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li a:hover {
+    background-color: rgb(214, 214, 214);
+}
+
+nav li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.active {
+    background-color: #2174c7;
+}
+
+#titre_menu {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size :2.8vh;
+    margin-left: 2em;
+    margin-right: 2em;
+    text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+    /* Styles CSS pour les écrans de petite taille */
+    main header{
+        background-color: white;
+        color: black;
+        text-align: justify;
+        border-radius: 1vh;
+        font-size: x-small;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    #titre{
+        display: flex;
+        justify-content: center;
+    }
+    #bouton{
+        display: flex;
+        justify-content: center;
+        background-color: white;
+        text-align: center;
+        position: relative;
+        width:100%;
+    }
+
+    nav ul li a{
+        text-align: center;
+        align-items: center;
+        font-size: x-small;
+    }
+
+    form input[type="text"] {
+        width: 70%;
+        padding: 8px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    /* Styles CSS pour les écrans de petite taille */
+    main header{
+        background-color: white;
+        color: black;
+        text-align: justify;
+        border-radius: 1vh;
+        font-size: small;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #titre{
+        display: flex;
+        justify-content: center;
+    }
+    #bouton{
+        display: flex;
+        justify-content: center;
+        background-color: white;
+        text-align: center;
+        position: relative;
+        width:100%;
+    }
+
+    nav ul li a{
+        text-align: center;
+        align-items: center;
+        font-size: small;
+    }
+
+    form input[type="text"] {
+        width: 45%;
+        padding: 8px;
+        margin-bottom: 10px;
+    }
+}
+

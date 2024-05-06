@@ -1,0 +1,47 @@
+/* Pour les écrans moyens */
+@media screen and (min-width: 500px){
+    main{
+        background-color: #ffffff;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-top: 1%;
+        padding-bottom: 2%;
+        border-radius: 1vh;
+        margin-top: 1%;
+        width: 50%;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: medium;
+        text-align: center;
+        margin-bottom: 25%;
+    }
+
+    main img{
+        width: 100%;
+        max-width: 300px;
+    }
+}
+
+/* Pour les écrans petits */
+@media screen and (max-width: 500px){
+    main{
+        background-color: #ffffff;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-top: 1%;
+        padding-bottom: 2%;
+        border-radius: 1vh;
+        margin-top: 1%;
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: xx-small;
+        text-align: center;
+        margin-bottom: 25%;
+    }
+    
+    main img{
+        width: 100%;
+        max-width: 300px;
+    }
+}

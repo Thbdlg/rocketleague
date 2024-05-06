@@ -1,0 +1,66 @@
+/* Pour les écrans moyens */
+@media screen and (min-width: 500px){
+    section header{
+        padding-left: 2%;
+        padding-bottom: 2%;
+        padding-right: 2%;
+        padding-top: 1%;
+        width: 40%;
+    }
+
+    section table{
+        margin: 5% auto;
+        text-align: center;
+        background-color: white;
+        color: black;
+        font-weight: bold;
+        font-size:small;
+        padding: 5%;
+        border-radius: 1vh;
+        width: 60%;
+    }
+
+    table td{
+        padding-left: 1%;
+        padding-right: 1%;
+        text-align: center;
+    }
+
+    main img{
+        width: 100%;
+        max-width: 150px;
+    }
+}
+
+/* Pour les écrans petits */
+@media screen and (max-width: 500px){
+    section header{
+        padding-left: 2%;
+        padding-bottom: 2%;
+        padding-right: 2%;
+        padding-top: 1%;
+        width: 80%;
+        font-size: small;
+    }
+
+    section table tr,
+    section table td {
+        display: block;
+        text-align: center;
+    }
+
+    section table{
+        margin: 10% auto;
+        background-color: white;
+        color: black;
+        font-weight: bold;
+        padding: 5%;
+        border-radius: 1vh;
+        width: 70%;
+    }
+
+    main img{
+        width: 100%;
+        max-width: 150px;
+    }
+}

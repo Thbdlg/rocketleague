@@ -1,0 +1,108 @@
+/* Pour les écrans moyens */
+@media screen and (min-width: 500px) {
+    main {
+        display: flex;
+        padding: 3%;
+    }
+    
+    #registration{
+        background-color: #ffffff;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-bottom: 2%;
+        border-radius: 1vh;
+        width: 60%;
+    }
+    
+    #matchs{
+        background-color: #ffffff;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-bottom: 2%;
+        border-radius: 1vh;
+        width: 40%;
+        margin-left: 2%;
+    }
+    
+    div{
+        background-color: #ffffff;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-top: 1%;
+        padding-bottom: 2%;
+        border-radius: 1vh;
+        margin-top: 3%;
+        width: 40%;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: small;
+    }
+    form input[type="text"] {
+        width: 15%;
+        padding: 8px;
+        margin-bottom: 10px;
+    }
+}
+
+/* Pour les écrans petits */
+@media screen and (max-width: 500px){
+    main {
+        display: flex;
+        padding: 3%;
+        flex-direction: column;
+    }
+    
+    section{
+        width:70%;    
+        display:inline-block;   /* les blocs inline se positionnent les uns à côté des autres  */
+    }
+    
+    #registration{
+        background-color: #ffffff;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-bottom:4%;
+        border-radius: 1vh;
+        width: 60%;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: small;
+    }
+    
+    #matchs{
+        background-color: #ffffff;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-bottom: 2%;
+        border-radius: 1vh;
+        width: 60%;
+        display: inline-block;
+        position: relative;
+        margin-top: 2%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 60%;
+        font-size: small;
+    }
+    
+    div{
+        background-color: #ffffff;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-top: 1%;
+        padding-bottom: 2%;
+        border-radius: 1vh;
+        margin-top: 5%;
+        margin-bottom: 4%;
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: small;
+    }
+
+    form input[type="text"] {
+        width: 15%;
+        padding: 8px;
+        margin-bottom: 10px;
+    }
+}
